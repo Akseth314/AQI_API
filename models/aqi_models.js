@@ -1,6 +1,7 @@
 // models/Aqi.js
 const mongoose = require('mongoose');
 
+
 const aqiSchema = new mongoose.Schema({
   city: {
     type: String,
